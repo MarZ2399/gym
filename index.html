@@ -1,540 +1,637 @@
 <!DOCTYPE html>
+
+<!-- rgb(222, 222, 222); -->
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>IronFit Gym - Transforma tu cuerpo</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="estilo.css">
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="estilo.css" />
+  </head>
+  <body>
     <!-- WhatsApp Float Button -->
-    <a href="https://wa.me/1234567890" class="whatsapp-float pulse" target="_blank">
-        <i class="fab fa-whatsapp"></i>
+    <a
+      href="https://wa.me/1234567890"
+      class="whatsapp-float pulse"
+      target="_blank"
+    >
+      <i class="fab fa-whatsapp"></i>
     </a>
 
     <!-- Header -->
     <header class="header">
-        <div class="container">
-            <div class="logo">
-                <a href="#"><span>IRON</span>FIT</a>
-            </div>
-            <nav class="navbar">
-                <ul>
-                    <li><a href="#inicio">Inicio</a></li>
-                    <li><a href="#servicios">Servicios</a></li>
-                    <li><a href="#clases">Clases</a></li>
-                    <li><a href="#entrenadores">Entrenadores</a></li>
-                    <li><a href="#planes">Planes</a></li>
-                    <li><a href="#testimonios">Testimonios</a></li>
-                    <li><a href="#contacto">Contacto</a></li>
-                </ul>
-                <div class="hamburger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-            </nav>
+      <div class="container">
+        <div class="logo">
+          <img src="images/logo-aleyan2.png" alt="logo" class="logo" />
         </div>
+        <nav class="navbar">
+          <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#preguntas">Preguntas</a></li>
+            <li><a href="#clientes">Clientes</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+          <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </nav>
+      </div>
     </header>
 
     <!-- Hero Section -->
     <section id="inicio" class="hero">
-        <div class="container">
-            <div class="hero-content" data-aos="fade-right">
-                <h1>TRANSFORMA <span>TU VIDA</span> HOY</h1>
-                <p class="subtitle">Más de 10,000 miembros han cambiado sus vidas con nosotros. ¿Qué esperas?</p>
-                <div class="hero-stats">
-                    <div class="stat-item">
-                        <span class="stat-number" data-count="15">0</span>
-                        <span class="stat-text">Entrenadores</span>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-number" data-count="25">0</span>
-                        <span class="stat-text">Clases</span>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-number" data-count="10000">0</span>
-                        <span class="stat-text">Miembros</span>
-                    </div>
-                </div>
-                <div class="hero-buttons">
-                    <a href="#planes" class="btn btn-primary">ÚNETE AHORA</a>
-                    <a href="#clases" class="btn btn-outline">VER CLASES</a>
-                </div>
+      <div class="container">
+        <div class="hero-content" data-aos="fade-right">
+          <h1>TRANSFORMA <span>TU PROYECTO</span> HOY</h1>
+          <p class="subtitle">
+            Más de 10 clientes corporativos han cambiado sus proyectos con
+            nosotros a nivel nacional. ¿Qué esperas?
+          </p>
+          <div class="hero-stats">
+            <div class="stat-item">
+              <span class="stat-number" data-count="10">0</span>
+              <span class="stat-text">CLIENTES</span>
             </div>
-            <div class="hero-image" data-aos="fade-left">
-                <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Entrenamiento en gimnasio">
-                <div class="image-overlay"></div>
+            <div class="stat-item">
+              <span class="stat-number" data-count="60">0</span>
+              <span class="stat-text">OPERARIOS</span>
             </div>
+            <div class="stat-item">
+              <span class="stat-number" data-count="100">0</span>
+              <span class="stat-text">PROYECTOS</span>
+            </div>
+          </div>
+          <div class="hero-buttons">
+            <a href="#planes" class="btn btn-primary">Solicitar Información</a>
+            <!-- <a href="#clases" class="btn btn-outline">VER CLASES</a> -->
+          </div>
         </div>
-        <div class="hero-red-bar"></div>
+        <div class="hero-image" data-aos="fade-left">
+          <img src="images/IMG_1632.jpg" alt="Operario en función" />
+          <div class="image-overlay"></div>
+        </div>
+      </div>
+      <div class="hero-red-bar"></div>
     </section>
 
     <!-- Servicios Section -->
-    <section id="servicios" class="servicios section-padding">
-        <div class="container">
-            <div class="section-title" data-aos="fade-up">
-        
-                <h2>LO QUE <span>OF RECEMOS</span></h2>
-                <p>Equipamiento de última generación y profesionales certificados</p>
+    <section id="nosotros" class="servicios section-padding">
+      <div class="container">
+        <!-- <div class="section-title" data-aos="fade-up">
+           <h2>LO QUE <span>OFRECEMOS</span></h2> -->
+          <!-- <p>
+            Somos una empresa peruana con más de 3 años brindando soluciones en
+            arquitectura, ingeniería, construcción y gestión de proyectos.
+          </p> 
+        </div> -->
+        <div class="servicios-grid">
+          <div class="servicio-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon">
+              <i class="fa-solid fa-building-shield"></i>
             </div>
-            <div class="servicios-grid">
-                               <div class="servicio-card" data-aos="fade-up" data-aos-delay="100">
-                    <div class="icon">
-                        <i class="fas fa-dumbbell"></i>
-                    </div>
-                    <h3>Entrenamiento Personalizado</h3>
-                    <p>Programas diseñados específicamente para tus necesidades y objetivos.</p>
-                </div>
-                <div class="servicio-card" data-aos="fade-up" data-aos-delay="200">
-                    <div class="icon">
-                        <i class="fas fa-heartbeat"></i>
-                    </div>
-                    <h3>Cardio Zone</h3>
-                    <p>Área equipada con las mejores máquinas cardiovasculares para quemar calorías.</p>
-                </div>
-                <div class="servicio-card" data-aos="fade-up" data-aos-delay="300">
-                    <div class="icon">
-                        <i class="fas fa-weight"></i>
-                    </div>
-                    <h3>Área de Pesas</h3>
-                    <p>Equipos profesionales para desarrollar fuerza y masa muscular.</p>
-                </div>
-                <div class="servicio-card" data-aos="fade-up" data-aos-delay="400">
-                    <div class="icon">
-                        <i class="fas fa-swimming-pool"></i>
-                    </div>
-                    <h3>Piscina</h3>
-                    <p>Clases de natación y aquagym en nuestra piscina climatizada.</p>
-                </div>
-                <div class="servicio-card" data-aos="fade-up" data-aos-delay="500">
-                    <div class="icon">
-                        <i class="fas fa-spa"></i>
-                    </div>
-                    <h3>Spa y Sauna</h3>
-                    <p>Relájate después del entrenamiento en nuestro área de bienestar.</p>
-                </div>
-                <div class="servicio-card" data-aos="fade-up" data-aos-delay="600">
-                    <div class="icon">
-                        <i class="fas fa-utensils"></i>
-                    </div>
-                    <h3>Asesoría Nutricional</h3>
-                    <p>Planificación alimenticia personalizada para complementar tu entrenamiento.</p>
-                </div>
+            <h3>NOSOTROS</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
+          <div class="servicio-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon">
+              <i class="fa-solid fa-users-gear"></i>
             </div>
+            <h3>VISIÓN</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
+          <div class="servicio-card" data-aos="fade-up" data-aos-delay="300">
+            <div class="icon">
+              <i class="fa-solid fa-handshake"></i>
+            </div>
+            <h3>MISIÓN</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+    </section>
+
+    <section id="valores" class="valores section-padding">
+      <div class="container">
+        <div class="section-title" data-aos="fade-up">
+                <h2>NUESTROS VALORES</h2>
+        </div>
+            <img src="images/VALORES.png" alt="Descripción de la imagen">
         </div>
     </section>
 
     <!-- Clases Section -->
     <section id="clases" class="clases section-padding">
-        <div class="container">
-            <div class="section-title" data-aos="fade-up">
-                <h2>NUESTRAS <span>CLASES GRUPALES</span></h2>
-                <p>Variedad de clases para todos los niveles y objetivos</p>
-            </div>
-            <div class="clases-grid">
-                                <div class="clase-card" data-aos="fade-up" data-aos-delay="100">
-                    <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Crossfit">
-                    <div class="clase-info">
-                        <h3>Crossfit</h3>
-                        <div class="horario">
-                            <span><i class="far fa-clock"></i> Lunes, Miércoles, Viernes</span>
-                            <span>8:00 AM - 9:00 AM</span>
-                        </div>
-                        <a href="#" class="btn btn-small">RESERVAR</a>
-                    </div>
-                </div>
-                <div class="clase-card" data-aos="fade-up" data-aos-delay="200">
-                    <img src="https://images.unsplash.com/photo-1545205597-3d9d02c29597?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Yoga">
-                    <div class="clase-info">
-                        <h3>Yoga</h3>
-                        <div class="horario">
-                            <span><i class="far fa-clock"></i> Martes, Jueves</span>
-                            <span>7:00 AM - 8:00 AM</span>
-                        </div>
-                        <a href="#" class="btn btn-small">RESERVAR</a>
-                    </div>
-                </div>
-                <div class="clase-card" data-aos="fade-up" data-aos-delay="300">
-                    <img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Spinning">
-                    <div class="clase-info">
-                        <h3>Spinning</h3>
-                        <div class="horario">
-                            <span><i class="far fa-clock"></i> Lunes a Viernes</span>
-                            <span>6:00 PM - 7:00 PM</span>
-                        </div>
-                        <a href="#" class="btn btn-small">RESERVAR</a>
-                    </div>
-                </div>
-                <div class="clase-card" data-aos="fade-up" data-aos-delay="400">
-                    <img src="https://images.unsplash.com/photo-1538805060514-97d9cc17730c?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Boxeo">
-                    <div class="clase-info">
-                        <h3>Boxeo</h3>
-                        <div class="horario">
-                            <span><i class="far fa-clock"></i> Martes, Jueves, Sábado</span>
-                            <span>5:00 PM - 6:00 PM</span>
-                        </div>
-                        <a href="#" class="btn btn-small">RESERVAR</a>
-                    </div>
-                </div>
-            </div>
+      <div class="container">
+        <div class="section-title" data-aos="fade-up">
+          <h2>NUESTRAS <span>CLASES GRUPALES</span></h2>
+          <p>Variedad de clases para todos los niveles y objetivos</p>
         </div>
+        <div class="clases-grid">
+          <div class="clase-card" data-aos="fade-up" data-aos-delay="100">
+            <img
+              src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+              alt="Crossfit"
+            />
+            <div class="clase-info">
+              <h3>Crossfit</h3>
+              <div class="horario">
+                <span
+                  ><i class="far fa-clock"></i> Lunes, Miércoles, Viernes</span
+                >
+                <span>8:00 AM - 9:00 AM</span>
+              </div>
+              <a href="#" class="btn btn-small">RESERVAR</a>
+            </div>
+          </div>
+          <div class="clase-card" data-aos="fade-up" data-aos-delay="200">
+            <img
+              src="https://images.unsplash.com/photo-1545205597-3d9d02c29597?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+              alt="Yoga"
+            />
+            <div class="clase-info">
+              <h3>Yoga</h3>
+              <div class="horario">
+                <span><i class="far fa-clock"></i> Martes, Jueves</span>
+                <span>7:00 AM - 8:00 AM</span>
+              </div>
+              <a href="#" class="btn btn-small">RESERVAR</a>
+            </div>
+          </div>
+          <div class="clase-card" data-aos="fade-up" data-aos-delay="300">
+            <img
+              src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+              alt="Spinning"
+            />
+            <div class="clase-info">
+              <h3>Spinning</h3>
+              <div class="horario">
+                <span><i class="far fa-clock"></i> Lunes a Viernes</span>
+                <span>6:00 PM - 7:00 PM</span>
+              </div>
+              <a href="#" class="btn btn-small">RESERVAR</a>
+            </div>
+          </div>
+          <div class="clase-card" data-aos="fade-up" data-aos-delay="400">
+            <img
+              src="https://images.unsplash.com/photo-1538805060514-97d9cc17730c?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+              alt="Boxeo"
+            />
+            <div class="clase-info">
+              <h3>Boxeo</h3>
+              <div class="horario">
+                <span><i class="far fa-clock"></i> Martes, Jueves, Sábado</span>
+                <span>5:00 PM - 6:00 PM</span>
+              </div>
+              <a href="#" class="btn btn-small">RESERVAR</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Entrenadores Section -->
     <section id="entrenadores" class="entrenadores section-padding">
-        <div class="container">
-            <div class="section-title" data-aos="fade-up">
-                <h2>CONOCE A <span>NUESTRO EQUIPO</span></h2>
-                <p>Profesionales certificados para ayudarte a alcanzar tus metas</p>
-            </div>
-            <div class="entrenadores-slider">
-                                <div class="entrenador-card" data-aos="fade-up" data-aos-delay="100">
-                    <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Entrenador 1">
-                    <div class="entrenador-info">
-                        <h3>Carlos Méndez</h3>
-                        <span>Especialista en Crossfit</span>
-                        <div class="social">
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="entrenador-card" data-aos="fade-up" data-aos-delay="200">
-                    <img src="https://images.unsplash.com/photo-1545167622-3a6ac756afa4?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Entrenador 2">
-                    <div class="entrenador-info">
-                        <h3>Laura Gómez</h3>
-                        <span>Especialista en Yoga</span>
-                        <div class="social">
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="entrenador-card" data-aos="fade-up" data-aos-delay="300">
-                    <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Entrenador 3">
-                    <div class="entrenador-info">
-                        <h3>Javier Rodríguez</h3>
-                        <span>Especialista en Hipertrofia</span>
-                        <div class="social">
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="container">
+        <div class="section-title" data-aos="fade-up">
+          <h2>CONOCE A <span>NUESTRO EQUIPO</span></h2>
+          <p>Profesionales certificados para ayudarte a alcanzar tus metas</p>
         </div>
+        <div class="entrenadores-slider">
+          <div class="entrenador-card" data-aos="fade-up" data-aos-delay="100">
+            <img
+              src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+              alt="Entrenador 1"
+            />
+            <div class="entrenador-info">
+              <h3>Carlos Méndez</h3>
+              <span>Especialista en Crossfit</span>
+              <div class="social">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="entrenador-card" data-aos="fade-up" data-aos-delay="200">
+            <img
+              src="https://images.unsplash.com/photo-1545167622-3a6ac756afa4?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+              alt="Entrenador 2"
+            />
+            <div class="entrenador-info">
+              <h3>Laura Gómez</h3>
+              <span>Especialista en Yoga</span>
+              <div class="social">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="entrenador-card" data-aos="fade-up" data-aos-delay="300">
+            <img
+              src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+              alt="Entrenador 3"
+            />
+            <div class="entrenador-info">
+              <h3>Javier Rodríguez</h3>
+              <span>Especialista en Hipertrofia</span>
+              <div class="social">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Planes Section -->
     <section id="planes" class="planes section-padding">
-  <div class="container">
-    <div class="section-title" data-aos="fade-up">
-      <h2>ELIGE TU <span>MEMBRESÍA</span></h2>
-      <p>Flexibilidad para adaptarse a tus necesidades</p>
-    </div>
-    
-    <div class="planes-grid">
-      <!-- Plan Básico -->
-      <div class="plan-card" data-aos="fade-up" data-aos-delay="100">
-        <div class="plan-header">
-          <h3>BÁSICO</h3>
-          <div class="plan-price">
-            <span class="price">$29</span>
-            <span class="period">/mes</span>
-          </div>
-          <div class="plan-features">
-            <ul>
-              <li><i class="fas fa-check"></i> Acceso a área de pesas</li>
-              <li><i class="fas fa-check"></i> Acceso a cardio</li>
-              <li class="disabled"><i class="fas fa-times"></i> Clases grupales</li>
-              <li class="disabled"><i class="fas fa-times"></i> Entrenador personal</li>
-              <li class="disabled"><i class="fas fa-times"></i> Acceso a piscina</li>
-            </ul>
-          </div>
+      <div class="container">
+        <div class="section-title" data-aos="fade-up">
+          <h2>ELIGE TU <span>MEMBRESÍA</span></h2>
+          <p>Flexibilidad para adaptarse a tus necesidades</p>
         </div>
-        <div class="plan-footer">
-          <a href="#" class="btn btn-outline">ELEGIR PLAN</a>
+
+        <div class="planes-grid">
+          <!-- Plan Básico -->
+          <div class="plan-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="plan-header">
+              <h3>BÁSICO</h3>
+              <div class="plan-price">
+                <span class="price">$29</span>
+                <span class="period">/mes</span>
+              </div>
+              <div class="plan-features">
+                <ul>
+                  <li><i class="fas fa-check"></i> Acceso a área de pesas</li>
+                  <li><i class="fas fa-check"></i> Acceso a cardio</li>
+                  <li class="disabled">
+                    <i class="fas fa-times"></i> Clases grupales
+                  </li>
+                  <li class="disabled">
+                    <i class="fas fa-times"></i> Entrenador personal
+                  </li>
+                  <li class="disabled">
+                    <i class="fas fa-times"></i> Acceso a piscina
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="plan-footer">
+              <a href="#" class="btn btn-outline">ELEGIR PLAN</a>
+            </div>
+          </div>
+
+          <!-- Plan Estándar (Popular) -->
+          <div
+            class="plan-card popular"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <div class="popular-badge">POPULAR</div>
+            <div class="plan-header">
+              <h3>ESTÁNDAR</h3>
+              <div class="plan-price">
+                <span class="price">$49</span>
+                <span class="period">/mes</span>
+              </div>
+              <div class="plan-features">
+                <ul>
+                  <li><i class="fas fa-check"></i> Acceso a área de pesas</li>
+                  <li><i class="fas fa-check"></i> Acceso a cardio</li>
+                  <li><i class="fas fa-check"></i> Clases grupales</li>
+                  <li class="disabled">
+                    <i class="fas fa-times"></i> Entrenador personal
+                  </li>
+                  <li><i class="fas fa-check"></i> Acceso a piscina</li>
+                </ul>
+              </div>
+            </div>
+            <div class="plan-footer">
+              <a href="#" class="btn btn-primary">ELEGIR PLAN</a>
+            </div>
+          </div>
+
+          <!-- Plan Premium -->
+          <div class="plan-card" data-aos="fade-up" data-aos-delay="300">
+            <div class="plan-header">
+              <h3>PREMIUM</h3>
+              <div class="plan-price">
+                <span class="price">$79</span>
+                <span class="period">/mes</span>
+              </div>
+              <div class="plan-features">
+                <ul>
+                  <li><i class="fas fa-check"></i> Acceso a área de pesas</li>
+                  <li><i class="fas fa-check"></i> Acceso a cardio</li>
+                  <li><i class="fas fa-check"></i> Clases grupales</li>
+                  <li><i class="fas fa-check"></i> Entrenador personal</li>
+                  <li><i class="fas fa-check"></i> Acceso a piscina</li>
+                </ul>
+              </div>
+            </div>
+            <div class="plan-footer">
+              <a href="#" class="btn btn-outline">ELEGIR PLAN</a>
+            </div>
+          </div>
         </div>
       </div>
-      
-      <!-- Plan Estándar (Popular) -->
-      <div class="plan-card popular" data-aos="fade-up" data-aos-delay="200">
-        <div class="popular-badge">POPULAR</div>
-        <div class="plan-header">
-          <h3>ESTÁNDAR</h3>
-          <div class="plan-price">
-            <span class="price">$49</span>
-            <span class="period">/mes</span>
-          </div>
-          <div class="plan-features">
-            <ul>
-              <li><i class="fas fa-check"></i> Acceso a área de pesas</li>
-              <li><i class="fas fa-check"></i> Acceso a cardio</li>
-              <li><i class="fas fa-check"></i> Clases grupales</li>
-              <li class="disabled"><i class="fas fa-times"></i> Entrenador personal</li>
-              <li><i class="fas fa-check"></i> Acceso a piscina</li>
-            </ul>
-          </div>
-        </div>
-        <div class="plan-footer">
-          <a href="#" class="btn btn-primary">ELEGIR PLAN</a>
-        </div>
-      </div>
-      
-      <!-- Plan Premium -->
-      <div class="plan-card" data-aos="fade-up" data-aos-delay="300">
-        <div class="plan-header">
-          <h3>PREMIUM</h3>
-          <div class="plan-price">
-            <span class="price">$79</span>
-            <span class="period">/mes</span>
-          </div>
-          <div class="plan-features">
-            <ul>
-              <li><i class="fas fa-check"></i> Acceso a área de pesas</li>
-              <li><i class="fas fa-check"></i> Acceso a cardio</li>
-              <li><i class="fas fa-check"></i> Clases grupales</li>
-              <li><i class="fas fa-check"></i> Entrenador personal</li>
-              <li><i class="fas fa-check"></i> Acceso a piscina</li>
-            </ul>
-          </div>
-        </div>
-        <div class="plan-footer">
-          <a href="#" class="btn btn-outline">ELEGIR PLAN</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+    </section>
 
     <!-- Testimonios Section -->
     <section id="testimonios" class="testimonios section-padding">
-        <div class="container">
-            <div class="section-title" data-aos="fade-up">
-                <span class="title-tag">TESTIMONIOS</span>
-                <h2>LO QUE DICEN <span>NUESTROS CLIENTES</span></h2>
-                <p>Historias reales de transformación</p>
-            </div>
-            <div class="testimonios-slider">
-                               <div class="testimonio-card" data-aos="fade-up" data-aos-delay="100">
-                    <div class="testimonio-content">
-                        <div class="rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                        <p>"Desde que me uní a PowerGym, mi vida ha cambiado completamente. Los entrenadores son profesionales y el ambiente es increíble. He logrado resultados que nunca pensé posibles."</p>
-                        <div class="cliente-info">
-                            <img src="https://randomuser.me/api/portraits/women/32.jpg" alt="Cliente 1">
-                            <div>
-                                <h4>María González</h4>
-                                <span>Miembro desde 2020</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonio-card" data-aos="fade-up" data-aos-delay="200">
-                    <div class="testimonio-content">
-                        <div class="rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star-half-alt"></i>
-                        </div>
-                        <p>"El mejor gimnasio de la ciudad. Las instalaciones son impecables y siempre están limpias. Las clases de spinning son mi favorita, el instructor es muy motivador."</p>
-                        <div class="cliente-info">
-                            <img src="https://randomuser.me/api/portraits/men/45.jpg" alt="Cliente 2">
-                            <div>
-                                <h4>Juan Pérez</h4>
-                                <span>Miembro desde 2021</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonio-card" data-aos="fade-up" data-aos-delay="300">
-                    <div class="testimonio-content">
-                        <div class="rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                        <p>"El plan nutricional personalizado combinado con el entrenamiento me ha ayudado a perder 15kg en 3 meses. Estoy más saludable y feliz que nunca. ¡Gracias PowerGym!"</p>
-                        <div class="cliente-info">
-                            <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Cliente 3">
-                            <div>
-                                <h4>Ana Martínez</h4>
-                                <span>Miembro desde 2022</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="container">
+        <div class="section-title" data-aos="fade-up">
+          <span class="title-tag">TESTIMONIOS</span>
+          <h2>LO QUE DICEN <span>NUESTROS CLIENTES</span></h2>
+          <p>Historias reales de transformación</p>
         </div>
+        <div class="testimonios-slider">
+          <div class="testimonio-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="testimonio-content">
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <p>
+                "Desde que me uní a PowerGym, mi vida ha cambiado completamente.
+                Los entrenadores son profesionales y el ambiente es increíble.
+                He logrado resultados que nunca pensé posibles."
+              </p>
+              <div class="cliente-info">
+                <img
+                  src="https://randomuser.me/api/portraits/women/32.jpg"
+                  alt="Cliente 1"
+                />
+                <div>
+                  <h4>María González</h4>
+                  <span>Miembro desde 2020</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonio-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="testimonio-content">
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <p>
+                "El mejor gimnasio de la ciudad. Las instalaciones son
+                impecables y siempre están limpias. Las clases de spinning son
+                mi favorita, el instructor es muy motivador."
+              </p>
+              <div class="cliente-info">
+                <img
+                  src="https://randomuser.me/api/portraits/men/45.jpg"
+                  alt="Cliente 2"
+                />
+                <div>
+                  <h4>Juan Pérez</h4>
+                  <span>Miembro desde 2021</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonio-card" data-aos="fade-up" data-aos-delay="300">
+            <div class="testimonio-content">
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <p>
+                "El plan nutricional personalizado combinado con el
+                entrenamiento me ha ayudado a perder 15kg en 3 meses. Estoy más
+                saludable y feliz que nunca. ¡Gracias PowerGym!"
+              </p>
+              <div class="cliente-info">
+                <img
+                  src="https://randomuser.me/api/portraits/women/68.jpg"
+                  alt="Cliente 3"
+                />
+                <div>
+                  <h4>Ana Martínez</h4>
+                  <span>Miembro desde 2022</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Contacto Section -->
     <section id="contacto" class="contacto section-padding">
-        <div class="container">
-            <div class="contacto-grid">
-                <div class="contacto-info" data-aos="fade-right">
-                    <div class="section-title">
-                        <span class="title-tag">CONTACTO</span>
-                        <h2>VISÍTANOS <span>HOY</span></h2>
-                        <p>Estamos aquí para ayudarte en tu viaje fitness</p>
-                    </div>
-                    <div class="info-item">
-                        <div class="icon">
-                            <i class="fas fa-map-marker-alt"></i>
-                        </div>
-                        <div class="info-content">
-                            <h3>Dirección</h3>
-                            <p>Av. Fitness 1234, Ciudad Deportiva</p>
-                        </div>
-                    </div>
-                    <div class="info-item">
-                        <div class="icon">
-                            <i class="fas fa-phone-alt"></i>
-                        </div>
-                        <div class="info-content">
-                            <h3>Teléfono</h3>
-                            <p>+1 234 567 890</p>
-                        </div>
-                    </div>
-                    <div class="info-item">
-                        <div class="icon">
-                            <i class="fas fa-envelope"></i>
-                        </div>
-                        <div class="info-content">
-                            <h3>Email</h3>
-                            <p>info@ironfitgym.com</p>
-                        </div>
-                    </div>
-                    <div class="info-item">
-                        <div class="icon">
-                            <i class="fas fa-clock"></i>
-                        </div>
-                        <div class="info-content">
-                            <h3>Horario</h3>
-                            <p>Lunes a Viernes: 5:00 AM - 11:00 PM</p>
-                            <p>Sábado y Domingo: 7:00 AM - 9:00 PM</p>
-                        </div>
-                    </div>
-                    <div class="social-links">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-youtube"></i></a>
-                    </div>
-                </div>
-                <div class="contacto-form" data-aos="fade-left">
-                    <form id="form-contacto">
-                        <div class="form-group">
-                            <input type="text" placeholder="Nombre completo" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" placeholder="Correo electrónico" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="tel" placeholder="Teléfono">
-                        </div>
-                        <div class="form-group">
-                            <select required>
-                                <option value="" disabled selected>¿Qué te interesa?</option>
-                                <option value="membresia">Membresía</option>
-                                <option value="clases">Clases</option>
-                                <option value="entrenador">Entrenador Personal</option>
-                                <option value="nutricion">Nutrición</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <textarea placeholder="Tu mensaje..." rows="5" required></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary">ENVIAR MENSAJE <i class="fas fa-paper-plane"></i></button>
-                    </form>
-                </div>
+      <div class="container">
+        <div class="contacto-grid">
+          <div class="contacto-info" data-aos="fade-right">
+            <div class="section-title">
+              <span class="title-tag">CONTACTO</span>
+              <h2>VISÍTANOS <span>HOY</span></h2>
+              <p>Estamos aquí para ayudarte en tu viaje fitness</p>
             </div>
+            <div class="info-item">
+              <div class="icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="info-content">
+                <h3>Dirección</h3>
+                <p>Av. Fitness 1234, Ciudad Deportiva</p>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="icon">
+                <i class="fas fa-phone-alt"></i>
+              </div>
+              <div class="info-content">
+                <h3>Teléfono</h3>
+                <p>+1 234 567 890</p>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="info-content">
+                <h3>Email</h3>
+                <p>info@ironfitgym.com</p>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="icon">
+                <i class="fas fa-clock"></i>
+              </div>
+              <div class="info-content">
+                <h3>Horario</h3>
+                <p>Lunes a Viernes: 5:00 AM - 11:00 PM</p>
+                <p>Sábado y Domingo: 7:00 AM - 9:00 PM</p>
+              </div>
+            </div>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+          <div class="contacto-form" data-aos="fade-left">
+            <form id="form-contacto">
+              <div class="form-group">
+                <input type="text" placeholder="Nombre completo" required />
+              </div>
+              <div class="form-group">
+                <input type="email" placeholder="Correo electrónico" required />
+              </div>
+              <div class="form-group">
+                <input type="tel" placeholder="Teléfono" />
+              </div>
+              <div class="form-group">
+                <select required>
+                  <option value="" disabled selected>¿Qué te interesa?</option>
+                  <option value="membresia">Membresía</option>
+                  <option value="clases">Clases</option>
+                  <option value="entrenador">Entrenador Personal</option>
+                  <option value="nutricion">Nutrición</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <textarea
+                  placeholder="Tu mensaje..."
+                  rows="5"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">
+                ENVIAR MENSAJE <i class="fas fa-paper-plane"></i>
+              </button>
+            </form>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Mapa Section -->
     <div class="mapa-container">
-        <div class="mapa-overlay" data-aos="fade-in">
-            <div class="overlay-content">
-                <h3>VISÍTANOS</h3>
-                <p>Av. Fitness 1234, Ciudad Deportiva</p>
-                <a href="https://maps.google.com" target="_blank" class="btn btn-outline">
-                    <i class="fas fa-directions"></i> CÓMO LLEGAR
-                </a>
-            </div>
+      <div class="mapa-overlay" data-aos="fade-in">
+        <div class="overlay-content">
+          <h3>VISÍTANOS</h3>
+          <p>Av. Fitness 1234, Ciudad Deportiva</p>
+          <a
+            href="https://maps.google.com"
+            target="_blank"
+            class="btn btn-outline"
+          >
+            <i class="fas fa-directions"></i> CÓMO LLEGAR
+          </a>
         </div>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.215209179535!2d-73.98731792453988!3d40.75798597138946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25855c6480299%3A0x55194ec5a1ae072e!2sTimes%20Square!5e0!3m2!1sen!2sus!4v1620000000000!5m2!1sen!2sus" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.215209179535!2d-73.98731792453988!3d40.75798597138946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25855c6480299%3A0x55194ec5a1ae072e!2sTimes%20Square!5e0!3m2!1sen!2sus!4v1620000000000!5m2!1sen!2sus"
+        allowfullscreen=""
+        loading="lazy"
+      ></iframe>
     </div>
 
     <!-- Footer -->
     <footer class="footer">
-        <div class="container">
-            <div class="footer-grid">
-                <div class="footer-col">
-                    <div class="logo">
-                        <a href="#"><span>IRON</span>FIT</a>
-                    </div>
-                    <p>Transforma tu cuerpo y mente con nosotros. El mejor equipamiento, entrenadores profesionales y un ambiente motivador.</p>
-                    <div class="newsletter">
-                        <h3>NEWSLETTER</h3>
-                        <form class="newsletter-form">
-                            <input type="email" placeholder="Tu correo electrónico" required>
-                            <button type="submit"><i class="fas fa-paper-plane"></i></button>
-                        </form>
-                    </div>
-                </div>
-                <div class="footer-col">
-                    <h3>ENLACES RÁPIDOS</h3>
-                    <ul>
-                        <li><a href="#inicio">Inicio</a></li>
-                        <li><a href="#servicios">Servicios</a></li>
-                        <li><a href="#clases">Clases</a></li>
-                        <li><a href="#entrenadores">Entrenadores</a></li>
-                        <li><a href="#planes">Planes</a></li>
-                        <li><a href="#contacto">Contacto</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h3>HORARIO</h3>
-                    <ul class="horario">
-                        <li>Lunes - Viernes <span>5:00 AM - 11:00 PM</span></li>
-                        <li>Sábado <span>7:00 AM - 9:00 PM</span></li>
-                        <li>Domingo <span>7:00 AM - 9:00 PM</span></li>
-                    </ul>
-                    <div class="emergencia">
-                        <h3>EMERGENCIA</h3>
-                        <a href="tel:+1234567890" class="emergency-link">
-                            <i class="fas fa-phone-alt"></i> +1 234 567 890
-                        </a>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-col">
+            <div class="logo">
+              <a href="#"><span>IRON</span>FIT</a>
             </div>
-            <div class="footer-bottom">
-                <p>&copy; 2025 IronFit Gym. Todos los derechos reservados.</p>
-                <div class="footer-links">
-                    <a href="#">Términos y condiciones</a>
-                    <a href="#">Política de privacidad</a>
-                </div>
+            <p>
+              Transforma tu cuerpo y mente con nosotros. El mejor equipamiento,
+              entrenadores profesionales y un ambiente motivador.
+            </p>
+            <div class="newsletter">
+              <h3>NEWSLETTER</h3>
+              <form class="newsletter-form">
+                <input
+                  type="email"
+                  placeholder="Tu correo electrónico"
+                  required
+                />
+                <button type="submit">
+                  <i class="fas fa-paper-plane"></i>
+                </button>
+              </form>
             </div>
+          </div>
+          <div class="footer-col">
+            <h3>ENLACES RÁPIDOS</h3>
+            <ul>
+              <li><a href="#inicio">Inicio</a></li>
+              <li><a href="#servicios">Servicios</a></li>
+              <li><a href="#clases">Clases</a></li>
+              <li><a href="#entrenadores">Entrenadores</a></li>
+              <li><a href="#planes">Planes</a></li>
+              <li><a href="#contacto">Contacto</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h3>HORARIO</h3>
+            <ul class="horario">
+              <li>Lunes - Viernes <span>5:00 AM - 11:00 PM</span></li>
+              <li>Sábado <span>7:00 AM - 9:00 PM</span></li>
+              <li>Domingo <span>7:00 AM - 9:00 PM</span></li>
+            </ul>
+            <div class="emergencia">
+              <h3>EMERGENCIA</h3>
+              <a href="tel:+1234567890" class="emergency-link">
+                <i class="fas fa-phone-alt"></i> +1 234 567 890
+              </a>
+            </div>
+          </div>
         </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 IronFit Gym. Todos los derechos reservados.</p>
+          <div class="footer-links">
+            <a href="#">Términos y condiciones</a>
+            <a href="#">Política de privacidad</a>
+          </div>
+        </div>
+      </div>
     </footer>
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
